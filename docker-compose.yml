@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    hostname: mongo
+    ports:
+    - 27017:27017
+  web:
+    image: com.analytics.prime.microservice:1.0-SNAPSHOT
+    links:
+    - mongo
+    ports:
+    - "8180:8080"
+
