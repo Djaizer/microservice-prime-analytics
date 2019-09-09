@@ -1,4 +1,4 @@
-package com.analytics.prime;
+package com.analytics.prime.demoshell;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RestApplicationTests {
+public class DemoShellApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	}
+    @Test
+    public void contextLoads() {
+    }
 
 }
+//java -jar target\demo-shell-0.0.1-SNAPSHOT.jar
